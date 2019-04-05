@@ -5,7 +5,7 @@ import numpy
 import os
 import imp
 default = "darkflow/"
-VERSION = imp.load_source('version', os.path.join( default+'darkflow', 'version.py'))
+VERSION = imp.load_source('version', os.path.join( default+'darkflow/version.py'))
 VERSION = VERSION.__version__
 
 if os.name =='nt' :
